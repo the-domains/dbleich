@@ -1,28 +1,40 @@
-name: dbleich
 favicon: null
-layout_spectrum: 0.88802
-typography_spectrum: 0.43531
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: dbleich
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.5961317741312087
+  brandStrength: 0.8125
+  rhythmicContrast: 0.5
   brandColors:
     - '#1b1b1b'
     - '#404040'
     - '#858585'
     - '#c2c2c2'
     - '#f3f3f3'
-  brandStrength: 0.8125
   lightness: 0.5625
-  saturation: 0.5961317741312087
-  rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.4731183
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.88802
+analytics:
+  twitter: null
+  google: null
+  facebook: null
